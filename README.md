@@ -4,6 +4,8 @@
 
 Créé par **SCHMOCK** — <https://schmock.fr>
 
+**Télécharger** (version portable ou installateur) : <https://github.com/schm0ck101/nettrace-pro/releases/latest>
+
 NetTrace Pro est un logiciel de diagnostic réseau pour Windows 10 et 11, inspiré
 de PingPlotter. Il mesure en continu la latence, le jitter et les pertes de
 paquets vers une ou plusieurs destinations, et pour **chaque routeur** du
