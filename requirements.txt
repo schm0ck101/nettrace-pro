@@ -1,0 +1,4 @@
+# Dépendances d'exécution de NetTrace Pro
+PySide6-Essentials>=6.7
+pyqtgraph>=0.13.7
+numpy>=2.0
