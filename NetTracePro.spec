@@ -39,7 +39,9 @@ a = Analysis(
 # Bibliothèques Qt embarquées par les hooks mais jamais utilisées ici
 # (rendu logiciel OpenGL, Qt Quick/QML, lecteur PDF, Direct2D…)
 DROP = ("opengl32sw.dll", "qt6quick", "qt6qml", "qt6pdf", "qt6virtualkeyboard",
-        "qdirect2d", "qpdf.dll", "qt6network", "qtnetwork", "qtiff", "qwebp", "qicns", "qtga", "qwbmp")
+        "qdirect2d", "qpdf.dll", "qt6network", "qtnetwork", "qtiff",
+        # greffons Qt orphelins (réseau TLS, info réseau, clavier virtuel) : jamais utilisés
+        "qcertonlybackend", "qopensslbackend", "qschannelbackend", "qnetworklistmanager", "qtvirtualkeyboardplugin", "qwebp", "qicns", "qtga", "qwbmp")
 
 
 def _keep(entry):

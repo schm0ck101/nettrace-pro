@@ -18,7 +18,7 @@ facultative qui affiche votre IP publique).
 ## 1. Installation
 
 ### Avec l'installateur (recommandé)
-1. Lancez `NetTracePro-Setup-1.0.0.exe`.
+1. Lancez `NetTracePro-Setup-1.0.1.exe`.
 2. Suivez l'assistant. Par défaut, l'installation se fait **pour votre
    compte uniquement, sans droits administrateur**, dans
    `%LOCALAPPDATA%\Programs\NetTrace Pro`.
@@ -265,7 +265,7 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 ```
 Produit dans `dist\` : `NetTracePro\NetTracePro.exe` (dossier autonome),
 `NetTracePro-Portable.exe` et, si Inno Setup 6 est installé
-(`winget install JRSoftware.InnoSetup`), `NetTracePro-Setup-1.0.0.exe`.
+(`winget install JRSoftware.InnoSetup`), `NetTracePro-Setup-1.0.1.exe`.
 
 ### Tests
 ```
