@@ -2,7 +2,7 @@
 ; Compilation : build.ps1 (ou ISCC.exe installer\NetTracePro.iss)
 
 #define AppName "NetTrace Pro"
-#define AppVersion "1.0.3"
+#define AppVersion "1.0.4"
 #define AppExe "NetTracePro.exe"
 
 [Setup]
