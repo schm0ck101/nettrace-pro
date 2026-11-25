@@ -13,7 +13,7 @@ import threading
 from pathlib import Path
 
 APP_NAME = "NetTrace Pro"
-APP_VERSION = "1.0.2"
+APP_VERSION = "1.0.3"
 AUTHOR = "SCHMOCK"
 AUTHOR_URL = "https://schmock.fr"
 
