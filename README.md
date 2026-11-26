@@ -281,3 +281,28 @@ Produit dans `dist\` : `NetTracePro\NetTracePro.exe` (dossier autonome),
   le service fonctionne.
 - La précision est d'environ 0,1 ms (horloge haute résolution, recoupée avec
   la valeur de l'API qui est à la milliseconde).
+
+## Licence
+
+[MIT](LICENSE) — © 2026 SCHMOCK.
+
+## Code signing policy
+
+Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by
+[SignPath Foundation](https://signpath.org).
+
+- **Committers and reviewers:** [SCHMOCK](https://github.com/schm0ck101)
+- **Approvers:** [SCHMOCK](https://github.com/schm0ck101)
+
+Release binaries (portable executable and installer) are built from this repository by GitHub Actions
+(`.github/workflows/build.yml`) and signed through SignPath; every release is approved manually.
+
+### Privacy policy
+
+This program will not transfer any information to other networked systems unless specifically requested by the user
+or the person installing or operating it. It contains no telemetry, no analytics and no automatic update check.
+Network connections:
+
+- **Measurements, only when started by the user**: ping / traceroute to the targets the user enters, public DNS resolvers (`1.1.1.1`, `8.8.8.8`, `9.9.9.9`), `www.google.com`, public IP lookup (`api.ipify.org`, `api6.ipify.org`, `ipv4.icanhazip.com`, `ipv6.icanhazip.com`).
+
+Results stay on the computer (local data folder next to the portable executable or in `%APPDATA%`).

@@ -41,6 +41,7 @@ Name: "autostart"; Description: "Lancer NetTrace Pro au démarrage de Windows"; 
 [Files]
 Source: "..\build\app\NetTracePro\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "..\README.md"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\LICENSE"; DestDir: "{app}"; DestName: "LICENSE.txt"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#AppName}"; Filename: "{app}\{#AppExe}"
